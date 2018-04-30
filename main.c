@@ -2,7 +2,7 @@
 #include "screenOut.h"
 #include "phoneFunc.h"
 
-enum{INPUT=1, SHOWALL, QUIT};
+enum{INPUT=1, SHOWALL,SEARCH, DELETE, QUIT};
 
 int main(void)
 {
@@ -23,6 +23,13 @@ int main(void)
 
 		case SHOWALL:
 			ShowAllData();
+			break;
+		
+		case SEARCH:
+			SearchPhoneData();
+			break;
+		case DELETE:
+			DeletePhoneData();
 			break;
 		}
 
