@@ -5,5 +5,6 @@
 
 void ShowMenu(void);
 void ShowPhoneInfo(phoneData phone);
+void ShowPhoneInfoByPtr(phoneData *pPhone);
 
 #endif

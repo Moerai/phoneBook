@@ -20,3 +20,9 @@ void ShowPhoneInfo(phoneData phone)
 	printf("이름 : %s \n",phone.name);
 	printf("전화번호 : %s \n", phone.phoneNum);
 }
+
+void ShowPhoneInfoByPtr(phoneData *pPhone)
+{
+	printf("이름 : %s \n", pPhone->name);
+	printf("전화번호 : %s \n",pPhone->phoneNum);
+}
